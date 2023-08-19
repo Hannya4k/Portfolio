@@ -156,9 +156,17 @@ li:hover:before {
     width: 3rem;
 }
 
+img{
+    width: 300px;
+    height: auto;
+    border: 1px solid;
+    transition: transform .5s;
+}
 
 
-
+img:hover {
+    transform: scale(2.5);
+  }
 
 
 
